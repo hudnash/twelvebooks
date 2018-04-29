@@ -1,0 +1,141 @@
+.btn-outline-red:hover{
+	background: none;
+	border: 1px solid rgb(237, 41, 57);
+	color: rgb(237,41,57);
+}
+.btn-outline-red{
+	background: rgb(237, 41, 57);
+	color: rgb(255,255,255);
+}
+.btn-outline-blue:hover{
+	background: none;
+	border: 1px solid rgb(46, 77, 167);
+	color: rgb(46, 77, 167);
+}
+.btn-outline-blue{
+	background: rgb(46, 77, 167);
+	color: rgb(255,255,255);
+}
+.btn-outline-lightblue:hover{
+	background: none;
+	border: 1px solid rgb(29, 161, 243);
+	color: rgb(29, 161, 243);
+}
+.btn-outline-lightblue{
+	background: rgb(29, 161, 243);
+	color: rgb(255,255,255);
+}
+.btn-outline-rainbow:hover{
+	background: none;
+	border: 1px solid #ef4e7b;
+	color: #ef4e7b;
+}
+.btn-outline-linkedinblue:hover{
+	background: none;
+	border: 1px solid #0077B5;
+	color: #0077B5;
+}
+.btn-outline-linkedinblue{
+	background: #0077B5;
+	color: rgb(255,255,255);
+}
+.btn-outline-rainbow{
+	background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+	color: rgb(255,255,255);
+}
+.nohoverbkg:hover{
+	background: none;
+}
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
+.wrapper {
+    display: flex;
+    align-items: stretch;
+}
+#sidebar {
+    min-width: 250px;
+	max-width: 250px;
+	min-height: 100vh;
+	position: fixed;
+	top: 50%;
+	left: 1%;
+}
+#sidebar.active {
+    margin-left: -250px;
+}
+.navbar-logo {
+	width: 32px;
+	height: 32px;
+	fill: aqua;
+	vertical-align: bottom;
+}
+.sticktop{
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	z-index: 9999;
+}
+.col-md-auto, body{
+	margin-right: 0;
+	margin-left: 0;
+	padding-left: 0;
+	padding-right: 0;
+}
+.bgimg {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+	vertical-align: middle;
+	align-content: center;
+	padding-bottom: 5%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	min-height: 100%;
+}
+.mobile {
+	position: relative;
+	display: block;
+	width: 100% !important;
+	text-align: center;
+}
+.middle {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+}
+.display-container {
+	display: block;
+}
+.downpage{
+	display: inline-block;
+	height: 50%;
+	margin-top: 50%;
+}
+@media only screen and (max-width: 768px) {
+	.downpage {
+		display: inline-block;
+		height: 100%;
+		margin-top: 200%;
+	}
+}
+.dropdown-menu {
+	-webkit-transform: translateZ(0) !important;
+}
+.dropdown {
+	margin-right: 2%;
+}
+.sharpcorners {
+	border-radius: 0;
+}

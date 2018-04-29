@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- site info -->
+		<title> twelvebooks.org </title>
+		<link rel="icon" href="img/core/twelvebooks_book.png">
+
+		<!-- meta -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- framework imports -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/style.css"></link>
+		<script src="js/scripts.js"></script>
+		
+		<!-- Google -->
+		<meta name="google-signin-scope" content="profile email">
+		<script src="https://apis.google.com/js/platform.js" async defer></script>
+		<meta name="google-signin-client_id" content="65861807377-3lvci8862q0sgm80iq21l9ct75rddv9a.apps.googleusercontent.com">
+		
+		<!-- font family -->
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+		<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<!-- nav -->
+		<div class="container-fluid fixed-top">
+			<ul class="nav sticktop navbar-fixed-top">
+				<a class="navbar-brand" href="#"><img class="navbar-logo" src="img/core/twelvebooks_book.svg"></img></a>
+				<a class="nav-item" href="#"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#CollapseElements" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="fas fa-bars"></span>
+				</button>
+				<div class="collapse" id="CollapseElements">
+					<ul class="nav">
+						<li class="nav-item">
+							<a class="nav-link" href="/getbooks">get books</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/volunteer">volunteer</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/donate">donate</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/news">news</a>
+						</li>
+					</ul>
+				</div>
+				<!--
+				<ul class="nav-item dropdown ml-auto">
+					<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+						<button type="button" class="btn btn-outline-lightblue btn-circle"><i class="user"></i></button>
+					</a>
+					<div class="dropdown-menu">
+						<a class="dropdown-item nohoverbkg" href="#">
+							<button type="button" class="btn btn-outline-red btn-block sharpcorners" onclick="onSignIn()" id="#signInButton"><i class="fab fa-google"></i></button>
+						</a>
+					</div>
+				</ul>
+				-->
+			</ul>
+		</div>
+		<!-- top -->
+		<div class="container-fluid mobile middle display-container">
+			<div class="row-sm" style="white-space:nowrap;">
+				<span>
+					<object type="image/svg+xml" class="bgimg img-fluid" style="padding-right: 1%; white-space: nowrap;" data="img/core/twelvebooks.svg">
+						Your browser does not support SVG.
+					</object>
+				</span>
+			</div>
+		</div>
+		<br> </br>
+		<br> </br>
+		<br> </br>
+		<!-- illustration -->
+		<div class="carousel-inner col-md-auto downpage" data-ride="carousel" role="listbox" id="slides">
+			<div class="carousel-item active">
+				<picture>
+					<source srcset="https://dummyimage.com/2000x500/007aeb/4196e5" media="(min-width: 1400px)">
+					<source srcset="https://dummyimage.com/1400x500/#007aeb/4196e5" media="(min-width: 769px)">
+					<source srcset="https://dummyimage.com/800x500/007aeb/4196e5" media="(min-width: 577px)">
+					<img srcset="https://dummyimage.com/600x500/007aeb/4196e5" alt="responsive image" class="d-block img-fluid">
+				</picture>
+			</div>
+			<div class="carousel-item">
+				<picture>
+					<source srcset="https://dummyimage.com/2000x500/007aeb/4196e5" media="(min-width: 1400px)">
+					<source srcset="https://dummyimage.com/1400x500/#007aeb/4196e5" media="(min-width: 769px)">
+					<source srcset="https://dummyimage.com/800x500/007aeb/4196e5" media="(min-width: 577px)">
+					<img srcset="https://dummyimage.com/600x500/007aeb/4196e5" alt="responsive image" class="d-block img-fluid">
+				</picture>
+			</div>
+		</div>
+		<!-- sidebar -->
+		<div class="wrapper">
+			<div id="sidebar">
+				<ul class="list-unstyled components center-block">
+					<li><a href="https://www.instagram.com/hudnash/?hl=en" class="btn btn-outline-rainbow btn-circle"><i class="fab fa-instagram"></i></a></li>
+				</ul>
+				<ul class="list-unstyled components center-block">
+					<a><button type="button" class="btn btn-outline-lightblue btn-circle"><i class="fab fa-twitter"></i></button></a>
+				</ul>
+				<ul class="list-unstyled components center-block">
+					<li><button type="button" class="btn btn-outline-blue btn-circle"><i class="fab fa-facebook"></i></button></li>
+				</ul>
+				<ul class="list-unstyled components center-block">
+					<li><button type="button" class="btn btn-outline-linkedinblue btn-circle"><i class="fab fa-linkedin"></i></button></li>
+				</ul>
+			</div>
+		</div>
+		<!-- participate -->
+		<div class="container-fluid">
+			
+		</div>
+		<!-- slides -->
+		<div class="container-fluid">
+			
+		</div>
+		<!-- whatwedo -->
+		<div class="container-fluid">
+			
+		</div>
+		<!-- whoweare -->
+		<div class="container-fluid">
+			
+		</div>
+		<!-- footer -->
+		<div class="container-fluid">
+			
+		</div>
+	</body>
+</html>
